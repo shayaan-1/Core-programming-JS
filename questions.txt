@@ -1,0 +1,101 @@
+Q1: Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+Q2: Given an integer array nums and an integer val, remove all occurrences of val in nums in-place. The order of the elements may be changed. Then return the number of elements in nums which are not equal to val.
+Q3: Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once. The relative order of the elements should be kept the same. Then return the number of unique elements in nums.
+Q4: The next permutation of an array of integers is the next lexicographically greater permutation of its integer. More formally, if all the permutations of the array are sorted in one container according to their lexicographical order, then the next permutation of that array is the permutation that follows it in the sorted container. If such arrangement is not possible, the array must be rearranged as the lowest possible order (i.e., sorted in ascending order). (Q1: medium)
+Q5: Given an array of integers nums sorted in non-decreasing order, find the starting and ending position of a given target value. If target is not found in the array, return [-1, -1].
+Q6: Given the array nums after the possible rotation and an integer target, return the index of target if it is in nums, or -1 if it is not in nums.
+Q7: Since it is impossible to change the length of the array in some languages, you must instead have the result be placed in the first part of the array nums. More formally, if there are k elements after removing the duplicates, then the first k elements of nums should hold the final result. It does not matter what you leave beyond the first k elements.
+Q8: Given two sorted arrays nums1 and nums2 of size m and n respectively, return the median of the two sorted arrays.
+Q9: Given an unsorted integer array nums. Return the smallest positive integer that is not present in nums.
+Q9: Find the maximum product of two integers in an array.
+Q10: Given an array of integers, find the maximum sum of a subarray (Kadane's Algorithm).
+Q11: Write a function to find the intersection of two arrays.
+Q12: Rotate an array to the right by k steps.
+Q13: Given an array of integers nums, sort the array in ascending order and return it. You must solve the problem without using any built-in functions in O(nlog(n)) time complexity and with the smallest space complexity possible.
+Q14: You are given an integer array nums and two integers indexDiff and valueDiff. Find a pair of indices (i, j) such that: i != j, abs(i - j) <= indexDiff. abs(nums[i] - nums[j]) <= valueDiff, and Return true if such pair exists or false otherwise.
+Q15: Given an integer array nums, return the length of the longest strictly increasing subsequence
+Q16: Given a string s, return the longest palindromic substring in s. (Q7: medium)
+Q17: Reverse an integer
+Q18: Given an integer array nums, find a subarray that has the largest product, and return the product.
+Q19: Implement the myAtoi(string s) function, which converts a string to a 32-bit signed integer.
+Q20: Given an array of integers arr, return the number of subarrays with an odd sum.
+Q21: Implement a function to merge two sorted arrays.
+Q22: Given an array, find the minimum length subarray whose sum is greater than or equal to a given number.
+Q23: Find the majority element in an array (element that appears more than n/3 times).
+Q24: Write a function to find all permutations of a string.
+Q25: Find the "Kth" largest element in an array.
+Q26: Implement a function to sort an array of 0s, 1s, and 2s.
+Q27: Find the missing number in an array containing n distinct numbers taken from 0, 1, 2, ..., n.
+Q28: Given two strings, check if they are anagrams.
+Q28: Given a string s, remove duplicate letters so that every letter appears once and only once. 
+Q29: Given two strings text1 and text2, return the length of their longest common subsequence. If there is no common subsequence, return 0.
+Q30: Given a string s, find the longest palindromic subsequence's length in s.
+Q31: Write a program to print the Fibonacci series up to N terms. (Q5 easy).
+Q32: Write a function to find the sum of digits of a number.(Q6: Easy)
+Q33: Write a program tfo find the sum of all prime numbers between 1 and N. (Q7: easy)
+Q34: Write a program to swap two numbers without using a temporary variable. (q8: easy)
+Q35: Find GCD and LCM of 2 numbers. (Q9, easy)
+Q36: Given a string s, find the length of the longest substring without repeating characters. (Q18: medium)
+Q37: Implement two Stacks in an Array (Q10: Easy)
+Q38: Postfix Expreession evaluation using stack (Q19: Medium)
+Q39: Implement Stack using queues (Q11: easy)
+Q40: Check valid parenthesis. (Q20: Medium)
+Q41: Given an integer array nums of unique elements, return all possible subsets (the power set).(Q13: hard)
+Q42: Given an absolute path for a Unix-style file system, which begins with a slash '/', transform this path into its simplified canonical path.(Q14: hard)
+Q43: Given a string s representing a valid expression, implement a basic calculator to evaluate it, and return the result of the evaluation.(Q15: hard)
+Q44: Detect Cycle in LinkedList. (Q12: easy)
+Q45: Reverse a singly linked list. (Q21: medium)
+Q46: Remove the nth node from the end of a linked list. (Q22: medium)
+Q47: Given the head of a linked list, return the list after sorting it in ascending order.(Q23:medium)
+Q48: Design Circular Queue using linkedlist (Q24: Medium)
+Q49: Implement a function to insert a node at a specific position in a linked list.(Q13: easy)
+Q50: Implement a function to remove duplicates from an unsorted linked list. (Q14: easy)
+Q51: Given an input string s, reverse the order of the words.Note that s may contain leading or trailing spaces or multiple spaces between two words. The returned string should only have a single space separating the words. Do not include any extra spaces. (Q25: medium)
+Q52: Given the head of a linked list, reverse the nodes of the list k at a time, and return the modified list.(Q16: hard)
+Q53: Given the head of a sorted linked list, delete all nodes that have duplicate numbers, leaving only distinct numbers from the original list. Return the linked list sorted as well.(Q26 medium)
+Q54: You are given an array of k linked-lists lists, each linked-list is sorted in ascending order. (Q17: herd)
+Q55: Write a function to find the longest common prefix string amongst an array of strings. If there is no common prefix, return an empty string "". (Q27:medium)
+Q56: You are given an integer array nums. You are initially positioned at the array's first index, and each element in the array represents your maximum jump length at that position. Return true if you can reach the last index, or false otherwise. (Q28: medium)
+Q57: Given the head of a linked list, rotate the list to the right by k places. (Q29: medium)
+Q58: Given two non-negative integers num1 and num2 represented as strings, return the product of num1 and num2, also represented as a string. Note: You must not use any built-in BigInteger library or convert the inputs to integer directly. (Q30: medium)
+Q59: Given the head of a singly linked list and two integers left and right where left <= right, reverse the nodes of the list from position left to position right, and return the reversed list.(Q18:hard)
+Q60: Construct a BST, add nodes and perform traversals (Q31: medium)
+Q61: Find height of BST (Q32) 
+Q63: Diameter of Tree (Q19 hard)
+Q64: Find if a tree is height balanced or not. (Q15: easy)
+Q65: Find if 2 trees are identical (Q16: easy)
+Q66: A sum tree is one in which every node is equal to the sum of its left and right subtree. Write a code to verify whether a tree is sum tree or not. ( q33: medium)
+Q67: Find minimum in BST (Q17: easy)
+Q68: Search in BST (Q18: easy)
+Q69: Validate BST (Q20: hard)
+Q70: kth smallest element in BST (Q34: medium)
+Q71: Given two integer arrays preorder and inorder where preorder is the preorder traversal of a binary tree and inorder is the inorder traversal of the same tree, construct and return the binary tree.(Q21: hard)
+Q72: Construct BST from preorder (Q22: hard)
+Q73: Right Side View of Binary Tree (Q23: hard)
+Q74: Given a string s consisting of lowercase English letters, return the first letter to appear twice. (Q19: easy)
+Q75: A pangram is a sentence where every letter of the English alphabet appears at least once. Given a string sentence containing only lowercase English letters, return true if sentence is a pangram, or false otherwise.(Q20: easy)
+Q76: You are given an integer array cards where cards[i] represents the value of the ith card. A pair of cards are matching if the cards have the same value. Return the minimum number of consecutive cards you have to pick up to have a pair of matching cards among the picked cards. If it is impossible to have matching cards, return -1. (Q35: medium)
+Q77: Given a binary array nums and an integer k, return the maximum number of consecutive 1's in the array if you can flip at most k 0's.(Q24: hard)
+Q78: Given a string s and an integer k, return the maximum number of vowel letters in any substring of s with length k. Vowel letters in English are 'a', 'e', 'i', 'o', and 'u'. (Q36: medium)
+Q79: Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in the tree. According to the definition of LCA on Wikipedia: “The lowest common ancestor is defined between two nodes p and q as the lowest node in T that has both p and q as descendants (where we allow a node to be a descendant of itself).” (Q25: hard)
+Q80: Given a 0-indexed integer array nums of length n and an integer target, return the number of pairs (i, j) where 0 <= i < j < n and nums[i] + nums[j] < target. (Q21: easy)
+Q81: Given an integer array nums sorted in non-decreasing order, return an array of the squares of each number sorted in non-decreasing order.(Q22:easy)
+Q82: Given a string s, reverse the string according to the following rules: All the characters that are not English letters remain in the same position. All the English letters (lowercase or uppercase) should be reversed. Return s after reversing it. (Q23: easy)
+Q83: Move 0s to the end of array (Q37: medium)
+Q84: kth distinct string in array (Q38: medium)
+Q85: Sum of unique elements in an array (Q24: easy)
+Q86: Find leading integers in array. Leading integers are the integers having no value greater than them to their right. (Q25: easy)
+Q87: Given two strings ransomNote and magazine, return true if ransomNote can be constructed by using the letters from magazine and false otherwise. Each letter in magazine can only be used once in ransomNote.(Q39: medium)
+Q88: Given a string s, return true if s is a good string, or false otherwise. A string s is good if all the characters that appear in s have the same number of occurrences (i.e., the same frequency).(Q26: easy)
+Q89: You are given the head of a linked list, which contains a series of integers separated by 0's. The beginning and end of the linked list will have Node.val == 0. For every two consecutive 0's, merge all the nodes lying in between them into a single node whose value is the sum of all the merged nodes. The modified list should not contain any 0's. Return the head of the modified linked list. (Q40: medium)
+Q90: Given the head of a singly linked list, group all the nodes with odd indices together followed by the nodes with even indices, and return the reordered list. The first node is considered odd, and the second node is even, and so on. Note that the relative order inside both the even and odd groups should remain as it was in the input. You must solve the problem in O(1) extra space complexity and O(n) time complexity.(Q41: medium)
+Q91: Given the root of a binary tree and an integer targetSum, return true if the tree has a root-to-leaf path such that adding up all the values along the path equals targetSum. A leaf is a node with no children. (Q42:medium)
+Q92: Minimum Depth of Binary Tree (Q43: medium)
+Q93: Given an array of integers arr, a lucky integer is an integer that has a frequency in the array equal to its value. Return the largest lucky integer in the array. If there is no lucky integer return -1. (Q27:easy)
+Q94: Delete middle node of LL(Q44: medium)
+Q95: Given a binary tree root, a node X in the tree is named good if in the path from root to X there are no nodes with a value greater than X. Return the number of good nodes in the binary tree.(Q26: hard)
+Q96: Given an integer array nums, a reducer function fn, and an initial value init, return the final result obtained by executing the fn function on each element of the array, sequentially, passing in the return value from the calculation on the preceding element. This result is achieved through the following operations: val = fn(init, nums[0]), val = fn(val, nums[1]), val = fn(val, nums[2]), ... until every element in the array has been processed. The ultimate value of val is then returned. If the length of the array is 0, the function should return init. Please solve it without using the built-in Array.reduce method. (Q28: easy)
+Q97: Given an array of functions [f1, f2, f3, ..., fn], return a new function fn that is the function composition of the array of functions. The function composition of [f(x), g(x), h(x)] is fn(x) = f(g(h(x))). The function composition of an empty list of functions is the identity function f(x) = x. You may assume each function in the array accepts one integer as input and returns one integer as output.(Q29:easy)
+Q98: Given a string s, sort it in decreasing order based on the frequency of the characters. The frequency of a character is the number of times it appears in the string. Return the sorted string. If there are multiple answers, return any of them. (Q45: medium)
+Q99: You are given positive integers n and m. Define two integers, num1 and num2, as follows: num1: The sum of all integers in the range [1, n] that are not divisible by m. num2: The sum of all integers in the range [1, n] that are divisible by m. Return the integer num1 - num2. (Q3-:easy)
+Q100: You want to change s to t. Changing the ith character of s to ith character of t costs |s[i] - t[i]| (i.e., the absolute difference between the ASCII values of the characters). Return the maximum length of a substring of s that can be changed to be the same as the corresponding substring of t with a cost less than or equal to maxCost. If there is no substring from s that can be changed to its corresponding substring from t, return 0.(Q27: hard)
